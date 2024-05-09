@@ -35,18 +35,30 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-site_url: "https://255ribeiro.github.io/py5_aulas/"
-repo_url: "https://github.com/255ribeiro/py5_aulas"
-repo_name: "255ribeiro/py5_aulas" 
+site_url: "https://255ribeiro.github.io/fpacaf/"
+repo_url: "https://github.com/255ribeiro/fpacaf"
+repo_name: "255ribeiro/fpacaf" 
 
 nav:
   - Home: index.md
-  - instalação :
-      - Instalação do interpretador Cpython: ./instala/install.md
-      - Instalação do Py5: ./instala/install_py5.md
-  - Python Básico:
-      - Operações matemáticas no shell: ./basic/variaveis_e_operadores.ipynb
-      - tipos de dados: ./basic/data_types.md
+
+  - Introdução: ./topics/01_Intro_fpacaf/intro.md
+  - Fluxogramas: ./topics/01A_fluxogramas/fluxogramas.md
+
+  - Intro Python:
+    - Operadores: ./topics/02_intro_python/escadas.md
+    - Decisões lógicas: ./topics/03_intro_python/if_else.md
+    - Loops: ./topics/04_intro_loops/loops.md
+    - Funções : ./topics/04a_func_python/functionsPyton3.md
+  - Intro Rhino Python:  ./topics/05_intro_rhino_py/rhino_python.md
+  - Intro Grasshopper: ./topics/06_intro_grasshopper/intro_grasshopper.md
+  - Treliças: ./topics/07_trelicas/trelicas.md
+  - Malhas:
+    - Malha regular: ./topics/08_malha_reg/malha_reg.md
+    - Malha Irregular: ./topics/09_malha_irreg/malha_irreg.md
+  - Multiplos pavimentos: ./topics/10_multi_pav/multipav.md
+  - Listas e árvores de dados: ./topics/12_lists_data_tree/lists_and_data_trees.md
+  - Fractais: ./topics/13_fractals/fractais.md
 
 markdown_extensions:
   - admonition
