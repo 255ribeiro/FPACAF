@@ -46,7 +46,8 @@ nav:
   - Fluxogramas: ./topics/01A_fluxogramas/fluxogramas.md
 
   - Intro Python:
-    - Operadores: ./topics/02_intro_python/escadas.md
+    - Operadores: ./topics/02_intro_python/LPACAF-Aula_02_py3.ipynb
+    - Exercício escadas: ./topics/02_intro_python/escadas.md
     - Decisões lógicas: ./topics/03_intro_python/if_else.md
     - Loops: ./topics/04_intro_loops/loops.md
     - Funções : ./topics/04a_func_python/functionsPyton3.md
