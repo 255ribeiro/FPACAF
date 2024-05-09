@@ -75,10 +75,11 @@ plugins:
   - mkdocs-jupyter:
       kernel_name:
       include: ["*.py", "*.ipynb"]
-      #ignore: ["./flask/hello_flask.ipynb"]
-      execute: False
-      execute_ignore: ["./flask_dash/*/*"]
       include_source: True
+      # ignore: ["./flask/hello_flask.ipynb"]
+      execute: False
+      # execute_ignore: ["./flask_dash/*/*"]
+
       
 
 
