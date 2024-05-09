@@ -23,23 +23,23 @@ ___
 
 ### Aula 01 -
 
-[SLIDES](./Aula_01/Aula_01-introducao_a_programacao.pdf)
+[SLIDES](./topics/01_Intro_fpacaf/Aula_01-introducao_a_programacao.pdf)
 
 1. Apresentação do curso
 
     * Metodologia
     * Avaliações
 
-1. Introdução
+2. Introdução
 
    * Conceito de algoritmo
    * História da Programação
    * Programação Aplicada à Arquitetura e Urbanismo
    * A linguagem Python
 
-1. [Fluxogramas](./Fluxogramas/fluxogramas.md)
+3. [Fluxogramas](./topics/01A_fluxogramas/fluxogramas.md)
 
-2. Instalação
+4. Instalação
 
     - CPython 3.X
         * Pastas importantes da distribuição CPython
@@ -76,7 +76,7 @@ ___
         sys.exec_prefix
         ```
 
-3. Operações matemáticas no Python Shell
+5. Operações matemáticas no Python Shell
 
    * Operadores matemáticos
 
@@ -86,9 +86,9 @@ ___
 
    * Níveis de Parênteses
 
-4. Exercício sugerido 01 - Use o Python Shell como uma calculadora
+6. Exercício sugerido 01 - Use o Python Shell como uma calculadora
 
-5. Referências e *links* úteis
+7. Referências e *links* úteis
 
    * Python
 
@@ -148,8 +148,7 @@ ___
 
 1. Arquivos dos Exemplos da Aula
 
-    [Calcúlo do número de espelhos de uma escada](./Aula_02/escadas.md)
-
+    [Calcúlo do número de espelhos de uma escada](./topics/02_intro_python/escadas.md)
 2. Referências e *links* úteis
 
     *[Tweet sobre Python The Economist](https://twitter.com/theeconomist/status/1020001623236665346?lang=pt)
@@ -184,7 +183,7 @@ ___
 
 ### Aula 03 -
 
-[notas de aula](./Aula_03/LPACAF-Aula_03.ipynb)
+[notas de aula](./topics/03_intro_python/LPACAF-Aula_03.ipynb)
 
 1. Palavras reservadas
 
@@ -192,13 +191,13 @@ ___
 
    * [Lista de palavras reservadas do Python 3.x](https://docs.python.org/3/reference/lexical_analysis.html#keywords)
 
-1. Funções e Métodos
+2. Funções e Métodos
 
    * [Funções *Built-in* Python 2](https://docs.python.org/2/library/functions.html#)
 
    * [Funções *Built-in* Python 3](https://docs.python.org/3.7/library/functions.html#built-in-functions)
 
-1. Bibliotecas
+3. Bibliotecas
 
    * Importando módulos
        * [Biblioteca keyword Python 2](https://docs.python.org/2/library/keyword.html)
@@ -230,15 +229,15 @@ ___
     * [tutorial sobre o numpy](https://www.w3schools.com/python/numpy_intro.asp)
     * [tutorial sobre o matplotlib](https://www.tutorialspoint.com/matplotlib/index.htm)
 
-2. Funções definidas pelo usuário
+4. Funções definidas pelo usuário
 
    * def
    * parâmetros de entrada
    * retorno
 
-3. Exercício 03 - [Bhaskara](./Aula_03/Bhaskara.pdf)
+5. Exercício 03 - [Bhaskara](./topics/03_intro_python/if_else.md)
 
-4. Referências e *links* úteis
+6. Referências e *links* úteis
 
    * IDE [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 
@@ -254,7 +253,7 @@ ___
 
 ### Aula 04 -
 
-[Arquivo da Aula](./Aula_04/AULA_04.gh)  Clique com o botão direito para baixar
+[Arquivo da Aula](./topics/04_intro_loops/AULA_04.gh)  Clique com o botão direito para baixar
 
 1. iteráveis
 
@@ -272,23 +271,23 @@ ___
 
     * strings
 
-1. Repetições
+2. Repetições
 
    * while
 
    * for
 
-1. Exercício 04 - Sequência de Fibonacci
+3. Exercício 04 - Sequência de Fibonacci
 
-1. Arquivos dos Exemplos da Aula
+4. Arquivos dos Exemplos da Aula
 
-    [Arquivo .gh da Aula - Final](./Aula_04/AULA_04_FINAL.gh)
+    [Arquivo .gh da Aula - Final](./topics/04_intro_loops/AULA_04_FINAL.gh)
 
-    [Exemplos Loops While e For](./Aula_04/exemplos_for_e_while.py)
+    [Exemplos Loops While e For](topics/04_intro_loops/exemplos_for_e_while.py)
 
-    [Exemplo Loop For](./Aula_04/exemploFor.py)
+    [Exemplo Loop For](./topics/04_intro_loops/exemploFor.py)
 
-1. Referências e *links* úteis
+5. Referências e *links* úteis
 
 ___
 
@@ -333,10 +332,10 @@ ___
 1. Exercício 05 - Inverter os algarismos de um número inteiro de qualquer tamanho usando listas.
 
 1. Arquivos dos Exemplos da Aula
-    * [Pilar Tubular - Extrude](./Aula_05/exemplo_rhino_pilar_tubular_extrude.py)
-    * [Pilar Tubular - Pipe](./Aula_05/exemplo_rhino_pilar_tubular_pipe.py)
+    * [Pilar Tubular - Extrude](./topics/05_intro_rhino_py/exemplo_rhino_pilar_tubular_extrude.py)
+    * [Pilar Tubular - Pipe](./topics/05_intro_rhino_py/exemplo_rhino_pilar_tubular_pipe.py)
 
-1. Referências e *links* úteis
+2. Referências e *links* úteis
 
     * [Tutorial Rhino Modelagem 3D](https://www.youtube.com/watch?v=NKkXMKKA_Cs&list=PL68tctImfhCR2zFIxzEs95v5ETSXe9r14)
 
@@ -366,9 +365,8 @@ ___
 4. Exercício 06 - Criar sequência de colunas do GhPython.
 
 5. Arquivos dos Exemplos da Aula
-    * [Sequencia de Pilares - Rhino Python](./Aula_06/exemplo_rhino_pilotis_tubulares_pipe.py)
-    * [Exemplo Didático - Revisão do Loop for](./Aula_06/exemplo_didatico_revisao_do_loop_for.py)
-    * [Seqência de Pilares - Grasshopper](./Aula_06/Aula_06_sequencia_de_pilares.gh)
+    [Rhino Python](topics/05_intro_rhino_py/rhino_python.md)
+    [Rhino Grasshopper](./topics/06_intro_grasshopper/intro_grasshopper.md)
 
 6. Referências e *links* úteis
 
@@ -376,131 +374,42 @@ ___
 
 ### Aula 07 -
 
-[Arquivo base da Aula](./Aula_07/AULA_07_base.gh)
 
 1. Treliças
 
-1. Arquivos dos Exemplos da Aula
-    * [Treliças](./Aula_07/AULA_07_final.gh)
-
-1. Referências e *links* úteis
-
-    *[Dissertação - Sistema Generativo de Projeto Aplicado à ao Desenho e Otimização da Estrutura de um *Shed*](https://255ribeiro.github.io/Mestrado/)
-
+[Treliças](./topics/07_trelicas/trelicas.md)
 ___
 
 ### Aula 08 -
 
-[Malhas de Pilares no Grasshopper](./Aula_08/malhas_de_pilares_Grasshopper.gh)
 
-[Arquivo base da Aula](./Aula_08/Aula_08_base.gh)
+Malha de Pilares
 
-1. Malha de pontos regular
-   * Duplo for
-
-1. Exercício 07 - Transformar Malha de Pontos em Malha de Pilares com altura paramétrica
-
-    [Arquivo final da Aula - sem Rhino.Geometry](./Aula_08/Aula_08_final.gh)
-
-    [Arquivo final da Aula - Com Rhino.Geometry](./Aula_08/Aula_08_finalRG.gh)
-
-     [Arquivo final da Aula - Com Rhino.Geometry e planos](./Aula_08/Aula_08_finalRG_Plane.gh)
-
-1. Exercício 08 - Adicionar linhas de eixo das vigas em um dos sentidos da malha
-
-1. Referências e *links* úteis
+[Malha de Pilares regulares](./topics/08_malha_reg/malha_reg.md)
 
 ___
 
 ### Aula 09 -
 
-1. Malha de pontos irregular
-   * recebendo listas
-
-    [Arquivo base da Aula](./Aula_09/Aula_09_base.gh)
-
-    [Arquivo Final da Aula](./Aula_09/Aula_09_final.gh)
-
-    [Arquivo Final da Aula - RHINO.GEOMETRY](./Aula_09/Aula_09_final_RG.gh)
-
-1. Exercício 08 - Adicionar linhas de eixo das vigas em um dos sentidos da malha
-
-1. Referências e *links* úteis
+[Malha de pilares irregulares](topics/09_malha_irreg/malha_irreg.md)
 
 ___
 
 ### Aula 10 -
 
-1. Arquivo exemplo do comando Orient3p
-<br>
-
-    [Comando Orient3p](./Aula_10/planos_teste.3dm)
-
-_________
-
-1. Edifício de Múltiplos pavimentos
-   
-   <br>
-
-    [Arquivo base da Aula](./Aula_10/AULA_10_base_2020.gh)
-
-    [Arquivo final da Aula](./Aula_10/AULA_10_final_2020.gh)
-
-    [Arquivo final da Aula - R8 - py3](./Aula_10/AULA_10_final_rh8.gh)
-
-_________
-
-1. Exercício 9 - adaptar o código para que a rotação dos andares tenha sentidos alternados (e.g. andares pares no sentido horário e andares impares no sentido anti-horário)
-
-_________
-
-1. Trabalhos de Alunos - Edf. Multiplos pavimentos
-   <br>
-
-    * [Link do trabalho](https://github.com/jonasbarbosa/trabalhofinalLPACAF)
-
-    * [trabalho de alunos R6-R7](./Aula_10/multi_pav_r6_r7.gh)
-
-    * [trabalho de alunos R8](./Aula_10/multi_pav_r8.gh)
-
-
-_________
-
-1. Referências e *links* úteis
-
-_________
+[Edf. Múltiplos pavimentos](./topics/10_multi_pav/multipav.md)
 
 ### Aula 11 -
 
-1. Funções definidas pelo usuário
+[Funções definidas pelo usuário - Python](./topics/04a_func_python/functionsPyton3.md)
 
-    [Funções definidas pelo usuário em Python 3](./Aula_11/functionsPyton3.md)
-
-    [Funções definidas pelo usuário Rhino/Grasshopper](./Aula_11/functionsRhinoGrass.md)
-
-1. Exercício 12 - transformar um dos algoritmos desenvolvidos no curso em uma função
-
-1. Referências e *links* úteis
+[Funções definidas pelo usuário - Grasshopper](topics/04a_func_python/functionsRhinoGrass.md)
 
 ___
 
 ### Aula 12 -
 
-1. Manipulação de listas e slicing
-
-    [Arquivo base da Aula](.\Aula_12\Aula_12_base.gh)
-
-    [Arquivo final da Aula](.\Aula_12\AULA_12_final.gh)
-
-
-1. Data trees
-
-    [Artigo Mcnell data trees](https://developer.rhino3d.com/guides/rhinopython/grasshopper-datatrees-and-python/)
-
-    [exemplos de data tree R8 - py3](./Aula_12/datatree_examples_py3.gh)
-
-
-1. Referências e *links* úteis
+[Listas e data tree](./topics/12_lists_data_tree/lists_and_data_trees.md)
 
 ___
 
@@ -520,15 +429,7 @@ ___
 
 ### Aula 14 -
 
-1. Fractais
-
-    [Arquivo base da Aula](./Aula_14/Sierpinski3Dbase.gh)
-
-1. Exercício 14 - Desenvolver um algoritmo que gere um outro fractal.
-
-1. Referências e *links* úteis
-
-    [Plug-in FRACTALS](https://www.food4rhino.com/app/fractals)
+[Fractais](topics/13_fractals/fractais.md)
 
 ___
 
