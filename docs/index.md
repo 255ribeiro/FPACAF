@@ -1,6 +1,7 @@
-# Lógica de Programação Aplicada à Criação e Análise da Forma
+# Fundamentos de Programação Aplicada à Criação e Análise da Forma
 
 ___
+
 
 <!-- Prof. Fernando Ferraz Ribeiro \| fernando.ribeiro@ufba.br
 
