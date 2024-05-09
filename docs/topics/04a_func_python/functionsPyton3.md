@@ -1,5 +1,6 @@
 # Funções Definidas Pelo Usuário - Python3
 
+
 ## Algoritmo do cálculo da escada
 
 ### Algoritmo Original - Escada
@@ -38,7 +39,7 @@ print("o piso tem ", piso, "m")
 
 ### Transformando em função - Escada
 
-imortando as dependências
+Importando as dependências
 
 ```python
 # dependencias
