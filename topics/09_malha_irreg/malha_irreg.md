@@ -7,7 +7,7 @@
 
     [Arquivo Final da Aula](./Aula_09_final.gh)
 
-    [Arquivo Final da Aula - RHINO.GEOMETRY](./Aula_09_final_RG.gh)
+    [Arquivo Final da Aula - RHINO.GEOMETRY](./Aula_09_final_RGh.gh)
 
 2. Exercício 08 - Adicionar linhas de eixo das vigas em um dos sentidos da malha
 

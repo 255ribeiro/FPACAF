@@ -3,7 +3,7 @@
 
 1. Manipulação de listas e slicing
 
-    [Arquivo base da Aula](./Aula_12_base.gh)
+    [Arquivo base da Aula](./AULA_12_base.gh)
 
     [Arquivo final da Aula](./AULA_12_final.gh)
 
