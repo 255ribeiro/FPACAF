@@ -1,4 +1,4 @@
-# Lógica de Programação Aplicada à Criação e Análise da Forma
+# Fundamentos de Programação Aplicada à Criação e Análise da Forma
 
 ___
 
