@@ -5,6 +5,8 @@
 
     [Arquivo base da Aula](./Sierpinski3Dbase.gh)
 
+    [Arquivo Python](./Sierpinski3D.py)
+
 1. Exercício 14 - Desenvolver um algoritmo que gere um outro fractal.
 
 1. Referências e *links* úteis
