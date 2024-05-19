@@ -9,8 +9,7 @@
 _________
 
 1. Edifício de Múltiplos pavimentos
-   
-   <br>
+<br>
 
     * [Arquivo base da Aula](./AULA_10_base_2020.gh)
 
