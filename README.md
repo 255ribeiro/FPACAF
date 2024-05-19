@@ -1,4 +1,4 @@
-# Fundamentos de Programação Aplicada à Criação e Análise da Forma
+# Fundamentos de Programação Aplicados à Criação e Análise da Forma
 
 ___
 
