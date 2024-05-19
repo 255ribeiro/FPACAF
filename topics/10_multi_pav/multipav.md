@@ -4,7 +4,7 @@
 1. Arquivo exemplo do comando Orient3p
 <br>
 
-    [Comando Orient3p](./planos_teste.3dm)
+    * [Comando Orient3p](./planos_teste.3dm)
 
 _________
 
@@ -12,11 +12,11 @@ _________
    
    <br>
 
-    [Arquivo base da Aula](./AULA_10_base_2020.gh)
+    * [Arquivo base da Aula](./AULA_10_base_2020.gh)
 
-    [Arquivo final da Aula](./AULA_10_final_2020.gh)
+    * [Arquivo final da Aula](./AULA_10_final_2020.gh)
 
-    [Arquivo final da Aula - R8 - py3](./AULA_10_final_rh8.gh)
+    * [Arquivo final da Aula - R8 - py3](./AULA_10_final_rh8.gh)
 
 _________
 
