@@ -60,6 +60,7 @@ nav:
   - Multiplos pavimentos: ./topics/10_multi_pav/multipav.md
   - Listas e árvores de dados: ./topics/12_lists_data_tree/lists_and_data_trees.md
   - Fractais: ./topics/13_fractals/fractais.md
+  - Cursos e Referências: ./topics/ref/ref.md
 
 markdown_extensions:
   - admonition
