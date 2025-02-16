@@ -24,7 +24,7 @@ ___
 
 ### Aula 01 -
 
-[SLIDES](./topics/01_Intro_fpacaf/Aula_01-introducao_a_programacao.pdf)
+[SLIDES](./topics/00B_slides/python_para_arquitetos_2024.pdf)
 
 1. Apresentação do curso
 
@@ -115,7 +115,7 @@ ___
 
 ### Aula 02 -
 
-[notas de aula - Python 2](https://colab.research.google.com/github/255ribeiro/LPACAF/blob/master/Aula_02/LPACAF-Aula_02_py2.ipynb)
+<!-- [notas de aula - Python 2](https://colab.research.google.com/github/255ribeiro/LPACAF/blob/master/Aula_02/LPACAF-Aula_02_py2.ipynb) -->
 
 [notas de aula - Python 3](https://colab.research.google.com/github/255ribeiro/LPACAF/blob/master/Aula_02/LPACAF-Aula_02_py3.ipynb)
 
