@@ -1,1 +1,1 @@
-[slides](./Aula_01-introducao_a_programacao.pdf)
+[slides](../topics/00B_slides/python_para_arquitetos_2024.pdf)
