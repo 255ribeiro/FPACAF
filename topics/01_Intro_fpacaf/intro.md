@@ -1,1 +1,1 @@
-[slides](../topics/00B_slides/python_para_arquitetos_2024.pdf)
+[slides](../00B_slides/python_para_arquitetos_2024.pdf)
