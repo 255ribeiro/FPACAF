@@ -76,6 +76,10 @@ ___
         import sys
         sys.exec_prefix
         ```
+    - Programando online com Python
+        [lightning.ai](https://lightning.ai/)
+        [Replit](https://replit.com/)
+        [Google Colab](https://colab.research.google.com/)
 
 5. Operações matemáticas no Python Shell
 
