@@ -8,13 +8,9 @@
       
       
       
-        <link rel="canonical" href="https://255ribeiro.github.io/fpacaf/topics/10_multi_pav/multipav.html">
+        <link rel="canonical" href="https://255ribeiro.github.io/fpacaf/topics/00C_elementos_de_comp/aula-fundamentos-computacao.html">
       
       
-        <link rel="prev" href="../09_malha_irreg/malha_irreg.html">
-      
-      
-        <link rel="next" href="../12_lists_data_tree/lists_and_data_trees.html">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +18,7 @@
     
     
       
-        <title>Multiplos pavimentos - FPACAF</title>
+        <title>Aula fundamentos computacao - FPACAF</title>
       
     
     
@@ -75,11 +71,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#multiplos-pavimentos" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -112,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Multiplos pavimentos
+              Aula fundamentos computacao
             
           </span>
         </div>
@@ -588,19 +579,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="multipav.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../10_multi_pav/multipav.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -609,7 +591,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -698,61 +679,302 @@
   
 
 
-<h1 id="multiplos-pavimentos">Múltiplos pavimentos</h1>
-<ol>
-<li>
-<p>Arquivo exemplo do comando Orient3p
-<br></p>
+  <h1>Aula fundamentos computacao</h1>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Disciplina-Fundamentos%20de%20Computa%C3%A7%C3%A3o-6366f1?style=for-the-badge&logoColor=white" alt="Disciplina"/>
+<img src="https://img.shields.io/badge/N%C3%ADvel-Introdu%C3%A7%C3%A3o-22c55e?style=for-the-badge&logoColor=white" alt="Nível"/>
+<img src="https://img.shields.io/badge/Formato-Diagramas%20Interativos-f59e0b?style=for-the-badge&logoColor=white" alt="Formato"/>
+
+# 🖥️ Fundamentos de Computação
+
+### Arquitetura · Sistemas de Arquivos · Terminal · Ambiente Python
+
+---
+
+*Material didático em diagramas interativos · Abrir cada link no navegador*
+
+</div>
+
+<hr />
+<h2 id="conteudo-da-aula">📚 Conteúdo da Aula</h2>
+<p>Esta aula cobre os fundamentos da computação em quatro blocos temáticos: <strong>arquitetura do computador</strong>, <strong>sistemas de arquivos</strong>, <strong>comandos de terminal</strong> e <strong>ambientes de desenvolvimento Python</strong>.</p>
+<hr />
+<h2 id="bloco-1-arquitetura-do-computador">🔷 Bloco 1 — Arquitetura do Computador</h2>
+<p>Visão geral dos componentes físicos e lógicos de um computador e como se comunicam entre si.</p>
+<h3 id="diagramas">Diagramas</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Diagrama</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.1</td>
+<td><a href="diagrama-computador.html">🖥️ Arquitetura Básica do Computador</a></td>
+<td>CPU, memória, disco e dispositivos de entrada e saída. Inclui o ciclo Fetch–Decode–Execute.</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td><a href="diagrama-simplificado.html">⚡ CPU, Memória, Entradas e Saídas</a></td>
+<td>Os 4 elementos essenciais e fluxo de dados animado entre eles.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="conceitos-abordados">Conceitos abordados</h3>
 <ul>
-<li><a href="planos_teste.3dm">Comando Orient3p</a></li>
+<li><strong>CPU</strong> (Unidade Central de Processamento): UC, ULA e Registradores</li>
+<li><strong>Memória</strong>: hierarquia Cache → RAM → Memória Virtual</li>
+<li><strong>Barramento</strong>: canais de dados, endereços e controle</li>
+<li><strong>Entrada/Saída</strong>: teclado, mouse, monitor, impressora, rede</li>
+<li><strong>Ciclo de execução</strong>: Busca → Decodificação → Execução</li>
 </ul>
-</li>
-</ol>
 <hr />
-<ol>
-<li>
-<p>Edifício de Múltiplos pavimentos
-<br></p>
+<h2 id="bloco-2-sistemas-de-arquivos">🔷 Bloco 2 — Sistemas de Arquivos</h2>
+<p>Organização hierárquica (em árvore) de diretórios e arquivos nos principais sistemas operacionais.</p>
+<h3 id="diagramas_1">Diagramas</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Diagrama</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.1</td>
+<td><a href="diagrama-sistema-arquivos.html">🌳 Sistema de Arquivos Unix/Linux</a></td>
+<td>Árvore completa a partir da raiz <code>/</code>. Inclui caminhos absolutos, relativos e diretórios padrão FHS.</td>
+</tr>
+<tr>
+<td>2.2</td>
+<td><a href="diagrama-windows.html">🪟 Sistema de Arquivos Windows NTFS</a></td>
+<td>Estrutura com letras de unidade <code>C:\</code>, <code>D:\</code>. Explorer com árvore completa de <code>Users</code>, <code>Windows</code>, <code>Program Files</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="conceitos-abordados_1">Conceitos abordados</h3>
 <ul>
-<li>
-<p><a href="AULA_10_base_2020.gh">Arquivo base da Aula</a></p>
-</li>
-<li>
-<p><a href="AULA_10_final_2020.gh">Arquivo final da Aula</a></p>
-</li>
-<li>
-<p><a href="AULA_10_final_rh8.gh">Arquivo final da Aula - R8 - py3</a></p>
-</li>
+<li><strong>Nó raiz</strong>: ponto de partida único da hierarquia</li>
+<li><strong>Diretório</strong>: contém outros arquivos ou pastas</li>
+<li><strong>Arquivo</strong>: unidade de dados (nó folha)</li>
+<li><strong>Link simbólico</strong>: atalho que aponta para outro nó</li>
+<li><strong>Caminhos</strong>: absoluto, relativo, <code>~</code> (home), <code>..</code> (subir nível)</li>
+<li><strong>Diferenças Unix × Windows</strong>: <code>/</code> vs <code>C:\</code>, separador <code>/</code> vs <code>\</code>, atributo oculto</li>
 </ul>
-</li>
-</ol>
 <hr />
-<ol>
-<li>Exercício 9 - adaptar o código para que a rotação dos andares tenha sentidos alternados (e.g. andares pares no sentido horário e andares impares no sentido anti-horário)</li>
-</ol>
+<h2 id="bloco-3-terminal-e-linha-de-comando">🔷 Bloco 3 — Terminal e Linha de Comando</h2>
+<p>Comandos essenciais para navegar, criar, apagar e editar arquivos nos três principais sistemas operacionais.</p>
+<h3 id="diagramas_2">Diagramas</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Diagrama</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.1</td>
+<td><a href="diagrama-powershell-v2.html">🪟 Comandos PowerShell (Windows)</a></td>
+<td>Navegação, criação, exclusão e edição. Aliases compactos (<code>cd</code>, <code>ls</code>, <code>rm</code>, <code>cp</code>) em destaque.</td>
+</tr>
+<tr>
+<td>3.2</td>
+<td><a href="diagrama-macos-terminal.html">🍎 Comandos Terminal macOS</a></td>
+<td>Mesmas categorias. Comandos nativos como <code>open</code>, <code>nano</code>, <code>touch</code>. Shell padrão <code>zsh</code>.</td>
+</tr>
+<tr>
+<td>3.3</td>
+<td><a href="diagrama-linux-terminal.html">🐧 Comandos Terminal Linux</a></td>
+<td>Mesmas categorias. Comandos <code>nano</code>, <code>vim</code>, <code>gedit</code>. Prompt <code>alice@ubuntu</code>. Shell <code>bash</code>/<code>zsh</code>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="comandos-comparados-por-sistema">Comandos comparados por sistema</h3>
+<table>
+<thead>
+<tr>
+<th>Ação</th>
+<th>PowerShell</th>
+<th>macOS</th>
+<th>Linux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Diretório atual</td>
+<td><code>pwd</code></td>
+<td><code>pwd</code></td>
+<td><code>pwd</code></td>
+</tr>
+<tr>
+<td>Navegar</td>
+<td><code>cd</code></td>
+<td><code>cd</code></td>
+<td><code>cd</code></td>
+</tr>
+<tr>
+<td>Listar</td>
+<td><code>ls</code> / <code>dir</code></td>
+<td><code>ls</code></td>
+<td><code>ls</code></td>
+</tr>
+<tr>
+<td>Criar pasta</td>
+<td><code>mkdir</code></td>
+<td><code>mkdir</code></td>
+<td><code>mkdir</code></td>
+</tr>
+<tr>
+<td>Criar arquivo</td>
+<td><code>ni</code> (New-Item)</td>
+<td><code>touch</code></td>
+<td><code>touch</code></td>
+</tr>
+<tr>
+<td>Copiar</td>
+<td><code>cp</code></td>
+<td><code>cp</code></td>
+<td><code>cp</code></td>
+</tr>
+<tr>
+<td>Mover/renomear</td>
+<td><code>mv</code></td>
+<td><code>mv</code></td>
+<td><code>mv</code></td>
+</tr>
+<tr>
+<td>Apagar</td>
+<td><code>rm</code> / <code>del</code></td>
+<td><code>rm</code></td>
+<td><code>rm</code></td>
+</tr>
+<tr>
+<td>Ver conteúdo</td>
+<td><code>cat</code></td>
+<td><code>cat</code></td>
+<td><code>cat</code></td>
+</tr>
+<tr>
+<td>Editar (GUI)</td>
+<td><code>notepad</code></td>
+<td><code>open</code></td>
+<td><code>gedit</code></td>
+</tr>
+<tr>
+<td>Editar (terminal)</td>
+<td>—</td>
+<td><code>nano</code> / <code>vim</code></td>
+<td><code>nano</code> / <code>vim</code></td>
+</tr>
+<tr>
+<td>Ajuda</td>
+<td><code>Get-Help</code></td>
+<td><code>man</code></td>
+<td><code>man</code></td>
+</tr>
+</tbody>
+</table>
 <hr />
-<ol>
-<li>
-<p>Trabalhos de Alunos - Edf. Múltiplos pavimentos
-<br></p>
+<h2 id="bloco-4-ambiente-de-desenvolvimento-python-com-pixi">🔷 Bloco 4 — Ambiente de Desenvolvimento Python com Pixi</h2>
+<p>Gerenciamento moderno de ambientes e pacotes Python usando o <strong>Pixi</strong> (prefix.dev).</p>
+<h3 id="diagrama">Diagrama</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Diagrama</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4.1</td>
+<td><a href="diagrama-pixi.html">✨ Pixi — Gerenciador de Ambientes Python</a></td>
+<td>Instalação nos três sistemas, comandos de projeto, pacotes, execução e diagnóstico.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="por-que-pixi">Por que Pixi?</h3>
 <ul>
-<li>
-<p><a href="https://github.com/jonasbarbosa/trabalhofinalLPACAF">Link do trabalho</a></p>
-</li>
-<li>
-<p><a href="multi_pav_r6_r7.gh">trabalho de alunos R6-R7</a></p>
-</li>
-<li>
-<p><a href="multi_pav_r8.gh">trabalho de alunos R8</a></p>
-</li>
+<li>Instala pacotes de <strong>conda-forge</strong> e <strong>PyPI</strong> no mesmo ambiente</li>
+<li>Gera <code>pixi.lock</code> para reprodução exata do ambiente em qualquer máquina</li>
+<li>Substitui <code>venv</code> + <code>pip</code> + <code>conda</code> com um único fluxo de trabalho</li>
+<li>Funciona em Linux, macOS e Windows sem configuração extra</li>
 </ul>
-</li>
-</ol>
+<h3 id="fluxo-basico-de-trabalho">Fluxo básico de trabalho</h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># 1. Criar projeto</span>
+pixi<span class="w"> </span>init<span class="w"> </span>meu-projeto
+<span class="nb">cd</span><span class="w"> </span>meu-projeto
+
+<span class="c1"># 2. Adicionar dependências</span>
+pixi<span class="w"> </span>add<span class="w"> </span>python<span class="w"> </span>numpy<span class="w"> </span>pandas
+
+<span class="c1"># 3. Ativar ambiente</span>
+pixi<span class="w"> </span>shell
+
+<span class="c1"># 4. Executar script</span>
+pixi<span class="w"> </span>run<span class="w"> </span>python<span class="w"> </span>script.py
+</code></pre></div>
 <hr />
-<ol>
-<li>Referências e <em>links</em> úteis</li>
-</ol>
+<h3 id="instalacao-do-vscode">Instalação do VScode</h3>
+<p><a href="install_vscode.html">instalação</a></p>
+<h2 id="todos-os-diagramas">🗂️ Todos os Diagramas</h2>
+<table>
+<thead>
+<tr>
+<th>Arquivo</th>
+<th>Tema</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="diagrama-computador.html">diagrama-computador.html</a></td>
+<td>Arquitetura básica do computador</td>
+</tr>
+<tr>
+<td><a href="diagrama-simplificado.html">diagrama-simplificado.html</a></td>
+<td>CPU, memória, E/S</td>
+</tr>
+<tr>
+<td><a href="diagrama-sistema-arquivos.html">diagrama-sistema-arquivos.html</a></td>
+<td>Sistema de arquivos Unix/Linux</td>
+</tr>
+<tr>
+<td><a href="diagrama-windows.html">diagrama-windows.html</a></td>
+<td>Sistema de arquivos Windows NTFS</td>
+</tr>
+<tr>
+<td><a href="diagrama-powershell-v2.html">diagrama-powershell-v2.html</a></td>
+<td>Comandos PowerShell</td>
+</tr>
+<tr>
+<td><a href="diagrama-macos-terminal.html">diagrama-macos-terminal.html</a></td>
+<td>Comandos Terminal macOS</td>
+</tr>
+<tr>
+<td><a href="diagrama-linux-terminal.html">diagrama-linux-terminal.html</a></td>
+<td>Comandos Terminal Linux</td>
+</tr>
+<tr>
+<td><a href="diagrama-pixi.html">diagrama-pixi.html</a></td>
+<td>Pixi — gerenciador Python</td>
+</tr>
+</tbody>
+</table>
 <hr />
+<div align="center">
+
+*Fundamentos de Computação · Material didático · Diagramas interativos em HTML*
+
+</div>
 
 
 
